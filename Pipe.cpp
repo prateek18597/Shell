@@ -28,7 +28,7 @@ int main(int argc, char** argv)
 	}
 	else if(process1==0)
 	{
-		cout<<"Process1:  "<<getpid()<<endl;
+		cout<<"Process1 :  "<<getpid()<<endl;
 		string content;
 		std::ifstream file(argv[1]);
 		if (file.is_open()) 
@@ -54,7 +54,7 @@ int main(int argc, char** argv)
 
 	if(process2<0)
 	{
-		cout<<"Error in fork"<<endl;
+		cout<<"Error in the Fork"<<endl;
 	}
 	else if(process2>0)
 	{
